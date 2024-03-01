@@ -1,0 +1,178 @@
+/* Side Nav CSS */
+.custom-logo {
+  margin-top: 28px;
+  margin-left: 30px;
+}
+.custom-sidebar {
+  height: 134vh;
+  border-right: 1px solid #e6eff5;
+}
+.custom-link {
+  color: #b1b1b1 !important;
+}
+.custom-active-link {
+  color: #1814f3 !important;
+}
+
+/* Top Nav CSS */
+.custom-topnav {
+  border-bottom: 1px solid #e6eff5;
+}
+.custom-brand {
+  font-family: "Inter", sans-serif;
+  color: #343c6a;
+  font-weight: 600;
+  font-size: 25px;
+}
+.form-control {
+  width: 255px !important;
+  /* margin-left: 480px; */
+  background-color: #f5f7fa !important;
+  border-radius: 40px !important;
+  background-image: url("/Assets/magnifying-glass.svg"); /* Replace 'path_to_your_search_icon.svg' with the path to your search icon */
+  background-size: 1rem; /* Adjust the size of the icon */
+  background-position: 0.5rem center; /* Adjust position as needed */
+  background-repeat: no-repeat;
+}
+
+.form-control::placeholder {
+  padding-left: 15px;
+  color: #8ba3cb !important;
+}
+.custom-main-container {
+  background-color: #0f63e2 !important;
+  height: 80vh;
+  width: 60vw;
+}
+.custom-topnav-elements {
+  margin-left: 450px;
+}
+.responsive-sidelinks {
+  display: none;
+}
+/* Main Content CSS */
+
+/* Cards CSS */
+.card {
+  border-radius: 20px !important;
+  width: 300px;
+  height: 90px !important;
+  border: none !important;
+}
+.cards-container {
+  display: flex;
+}
+.card-txt {
+  color: #718ebf;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+.card-number {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+/* Charts CSS */
+.custom-chart-1 {
+  background-color: white;
+  width: 500px;
+  height: 226px;
+  border-radius: 20px;
+}
+.monthly-revenue-container {
+  margin-left: 170px;
+}
+
+/* Form and Table CSS */
+.form-container {
+  background-color: white;
+  width: 550px;
+  height: 257px;
+  border-radius: 20px;
+}
+.custom-label {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+.custom-form-input {
+  width: 520px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid #dfeaf2;
+}
+.custom-btn {
+  background-color: #1814f3 !important;
+  width: 104.97px;
+  height: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 9px !important;
+}
+.table-container {
+  margin-left: 250px;
+}
+.custom-table {
+  background-color: white;
+  width: 420px;
+  height: 257px;
+  border-radius: 20px;
+}
+.custom-table-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+.return-col {
+  color: #16dbaa !important;
+}
+.return-col-neg {
+  color: #fe5c73 !important;
+}
+
+/* Media queries */
+@media (max-width: 767.98px) {
+  .monthly-revenue-container {
+    margin-left: 0px;
+  }
+  .table-container {
+    margin-left: 0px;
+  }
+  .col {
+    overflow: auto;
+  }
+  .custom-nav-items {
+    display: none;
+  }
+  .custom-topnav-elements {
+    margin-left: 0px;
+  }
+  .form-container {
+    width: 300px;
+  }
+  .custom-form-input {
+    width: 280px;
+  }
+  .responsive-sidelinks {
+    display: list-item;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .monthly-revenue-container {
+    margin-left: 0px;
+  }
+  .table-container {
+    margin-left: 0px;
+  }
+  .custom-topnav-elements {
+    margin-left: 0px;
+  }
+  .form-container {
+    width: 500px;
+  }
+  .custom-form-input {
+    width: 470px;
+  }
+}
